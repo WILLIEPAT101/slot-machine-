@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #222;
+    color: #fff;
+}
+
+h1 {
+    margin-top: 50px;
+    font-size: 2.5em;
+    color: #ffcc00;
+    text-shadow: 8px 8px 10px #ae3535;
+}
+
+#slot-machine {
+    margin: 50px auto;
+    width: 320px;
+    border: 5px solid #fff;
+    padding: 20px;
+    border-radius: 15px;
+    background-color: #69f280;
+    box-shadow: 0 0 15px rgba(233, 204, 204, 0.5);
+}
+
+.reel {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    line-height: 80px;
+    background-color: #444;
+    margin: 0 10px;
+    border-radius: 10px;
+    font-size: 2.5em;
+    box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
+#balance {
+    margin-top: 20px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #00ff00;
+}
+
+#bet-amount {
+    margin: 20px 0;
+}
+
+input[type="number"] {
+    padding: 10px;
+    font-size: 1em;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    width: 150px;
+}
+
+button {
+    padding: 15px 30px;
+    font-size: 1.2em;
+    border-radius: 10px;
+    border: none;
+    background-color: #ffcc00;
+    color: #222;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #ff9900;
+}
+
+#result {
+    margin-top: 30px;
+    font-size: 1.5em;
+    font-weight: bold;
+    color: #ff0000;
+}
+
+
+
+
+
